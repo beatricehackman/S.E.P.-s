@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>SEP's Page</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="h4h.css" />
+		<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+	</head>
+	<body>
+			<div class="sidebar">
+				<img src="S E P 'S.jpeg" width=180 alt="logo"><br>
+				<a href="#intro">HOME</a><br>
+				<a href="#one">HOW IT WORKS</a><br>
+				<a href="#two">LOCATIONS</a><br>
+				<a href="#three">DONATE</a><br>
+			</div>
+			<div id="wrapper">
+				<!-- Intro -->
+				<section id="intro" class="wrapper style1 fullscreen fade-up">
+					<div id="introDiv">
+							<h1>SYRINGE EXCHANGE PROGRAM</h1>
+							<p style="font-size: 35px;">Serving Santa Clara County in the Bay Area.</p>
+					</div>
+				</section>
+
+				<!-- One -->
+				<section id="one" class="wrapper style2 spotlights">
+						<section>
+							<div class="content1">
+								<img src="syringe1.jpeg" alt="blue background syringes">
+									<div class="conWord">
+										<br>
+										<br>
+										<h2 style="font-family: 'Trebuchet MS', Helvetica, sans-serif">Our Mission: Sterile Syringe Exchange Program</h2>
+										<p>To provide easy access to syringe exchange programs in order to provide free sterile syringes and collect used syringes from injection-drug users to reduce transmission of bloodborne pathogens, including human immunodeficiency virus (HIV), hepatitis B virus, and hepatitis C virus.</p>
+									</div>
+							</div>
+						</section>
+						<section>
+							<div class="content2">
+								<img src="pharmacist2.jpeg" alt="photo of pharmacists">
+									<div class="conWord">
+										<br>
+										<h2 style="font-family: 'Trebuchet MS', Helvetica, sans-serif">How it works</h2>
+										<p>Clients are able to enter the exchange site, where they hand in used injection equipment and receive new needles or syringes. The main benefit, besides consistency for those in need of clean needles, is that these programs are better able to provide additional services to clients, such as HIV testing, healthcare, drug counseling.</p>
+									</div>
+							</div>
+						</section>
+						<section>
+							<div class="content3">
+									<img src="IMG_5026.png" alt="box of syringes">
+										<div class="conWord">
+											<br>
+											<h2 style="font-family: 'Trebuchet MS', Helvetica, sans-serif">Statistical Support from the CDC</h2>
+											<ul>
+												<li>A study of over 1,600 injection drug users in New York found that those who used an syringe exchange in the early 1990s were more than three times less likely to contract H.I.V.</li>
+												<li>A cost-effective analysis published in 2014 replicated the findings of others that came before it: A dollar invested in syringe exchange programs saves at least size dollars in avoided costs associated with H.I.V. alone.</li>
+												<li>Syringe exchange programs "reduce not only infectious disease but also create an opportunity for people to get the care and provide a transition into tratment for people in the community." -Micheal Botticelli (Director of the Federal Office of National Drug Control Policy)</li>
+											</ul>
+										<div>
+							</div>
+						</section>
+						<section>
+							<div class="content4">
+								<img src="hands.png" alt="photo of pharmacists">
+									<div class="conWord">
+										<br>
+										<h2 style="font-family: 'Trebuchet MS', Helvetica, sans-serif">What You Can Do</h2>
+										<p>Donate today! Needle Exchange programs require extra funding to implement themselves into more locations and local pharmacies.<br>Educate yourself and raise awareness! Addicts are people too. Regardless of what is in the syringe and needle the same safe and accepted medical practice as anyone else.</p>
+									</div>
+							</div>
+						</section>
+				</section>
+				<!-- Two -->
+				<section id="two" class="wrapper style3 fade-up">
+						<h2 style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 32px;">SEP Locations Near You</h2>
+							<div style="padding-bottom: 18px; font-size: 20px;">Pick the Closest City<span style="color: red;"> *</span><br/>
+								<span><input type="radio" id="city1" name="city" value="santaClara"/> Santa Clara</span><br/>
+								<span><input type="radio" id="city2" name="city" value="sanFran"/> San Francisco</span><br/>
+								<span><input type="radio" id="city3" name="city" value="oakland"/> Oakland</span><br/>
+								<input type="button" value="Locate!" onclick= "secondForm();"></input>
+							</div>
+				</section>
+				<div id="demo"></div>
+				<!-- Three -->
+            		<h1 style="margin-left: 200px; font-family: 'Trebuchet MS', Helvetica, sans-serif;">Donations</h1>   
+           			<div id = "middlebox">
+                	<div id="three" class="fields" style="position:relative; left:0px; top:10px; font-family: 'Abel';">											
+												<label for="FirstName" style="font-family: 'Abel';">First Name<span style="color:red">*</span>:</label>
+												<input type="text" name="FirstName" id="FirstName" />
+											<br>
+												<label for="LastName">Last Name<span style="color:red">*</span>:</label>
+												<input type="text" name="LastName" id="LastName" /><br>
+											
+												<label for="email">Email:</label>
+												<input type="text" name="email" id="email" />
+           			</div>
+            
+            		<div style="font-family: 'Abel'; font-size: 20px;" id = "rightbox" style="position:relative; left:0px; top:10px;">
+                									Donation Amount<span style="color: red;"> *</span><br/>
+													<span><input type="radio" id="data_5_0" name="data_5" value="$5"/> $5</span><br/>
+													<span><input type="radio" id="data_5_1" name="data_5" value="$10"/> $10</span><br/>
+													<span><input type="radio" id="data_5_2" name="data_5" value="$25"/> $25</span><br/>
+													<span><input type="radio" id="data_5_3" name="data_5" value="$50"/> $50</span><br/>
+													<span><input type="radio" id="data_5_4" name="data_5" value="$100"/> Other</span> <input type="number" name="other" id="other" />  <br/>
+													<input type="button" value="Donate!" onclick= "firstForm();"></input>
+
+            		</div>
+            </div>
+
+				
+
+		<!-- Scripts -->
+			<script type="text/Javascript">
+
+				function firstForm(){
+				var userFName = document.getElementById("FirstName").value;
+    			var userLName = document.getElementById("LastName").value;
+   				
+				if (userFName=="" ||userLName ==""){
+      			window.alert("An input is empty. Try to Donate again."); 
+   				}
+   				else{
+   					if (document.getElementById('data_5_1').checked) {
+						window.alert('Thank You for donating $10 to SEP !');
+					}else if (document.getElementById('data_5_0').checked){
+						window.alert('Thank You for donating $5 to SEP !');
+					}else if (document.getElementById('data_5_2').checked){
+						window.alert('Thank You for donating $25 to SEP !');
+					}else if (document.getElementById('data_5_3').checked){
+						window.alert('Thank You for donating $50 to SEP !');
+					}else if (document.getElementById('data_5_4').checked){
+						window.alert('Thank You for donating $100 to SEP !');
+					}else{
+						window.alert("An input is empty. Try to Donate again.");
+					}
+				}
+   				}
+    	
+
+				function secondForm(){
+					if (document.getElementById('city1').checked) {
+						document.getElementById('demo').innerHTML='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.3387714621813!2d-121.91413338481283!3d37.33448767984204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcb67b7e1fd15%3A0xbee30c589b7ba6e3!2sCrane%20Center!5e0!3m2!1sen!2sus!4v1644700292328!5m2!1sen!2sus" width="950" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>';
+
+					}else if (document.getElementById('city2').checked){
+						document.getElementById('demo').innerHTML='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.3955778151126!2d-122.41043598479925!3d37.780768279758334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580840e420b33%3A0x49a0a7722037a28!2sSan%20Francisco%20AIDS%20Foundation%20Syringe%20Access%20Services!5e0!3m2!1sen!2sus!4v1644699418328!5m2!1sen!2sus" width="950" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>';
+						
+					}else if (document.getElementById('city3').checked){
+						document.getElementById('demo').innerHTML='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.751423169892!2d-122.20233738479952!3d37.77242637975982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f86727fe21ca7%3A0xd57bc68597c0e876!2sThe%20HIV%20Education%20and%20Prevention%20Project%20of%20Alameda%20County%20(Casa%20Segura)!5e0!3m2!1sen!2sus!4v1644699742403!5m2!1sen!2sus" width="950" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>'
+					}
+				}
+			</script>
+
+
+	</body>
+</html>
